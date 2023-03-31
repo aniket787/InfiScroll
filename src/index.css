@@ -84,6 +84,7 @@ button:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 9px;
 }
 
 .card-info {
@@ -92,7 +93,10 @@ button:focus-visible {
   background-color: #213547;
   text-align: center;
 }
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 900px) {
+  :root{
+    font-size: 8px;
+  }
   .container {
     max-width: 90%;
   }
@@ -110,7 +114,7 @@ button:focus-visible {
 }
 
 .card-id {
-  width: 3rem;
+  width: 4rem;
   height: 3rem;
   border-radius: 50%;
   color: #000;
