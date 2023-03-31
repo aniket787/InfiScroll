@@ -5,10 +5,11 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  background-color: rgb(241, 243, 142);
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -37,7 +38,7 @@ h1 {
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
   text-align: center;
-  margin: 5rem auto;
+  margin: 0rem 0rem;
 }
 
 button {
@@ -65,12 +66,12 @@ button:focus-visible {
 }
 .container {
   /* background-color: red; */
-  max-width: 80%;
+  max-width: 40%;
   margin: 0 auto;
 }
 
 .grid {
-  display: grid;
+  /* display: grid; */
   gap: 3.2rem;
 }
 .grid-three-column {
@@ -88,27 +89,30 @@ button:focus-visible {
 }
 
 .card-info {
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   border-radius: 1rem;
   background-color: #213547;
   text-align: center;
 }
 @media screen and (max-width: 900px) {
   :root{
-    font-size: 8px;
+    font-size: 10px;
+    background-color: #000;
   }
+
+  
   .container {
     max-width: 90%;
   }
-  .grid {
+  /* .grid {
     gap: 1.6rem;
-  }
+  } */
 
   .card {
     background-color: #213547;
   }
   .card-info {
-    padding: 0rem;
+    /* height: 8em; */
     background-color: #213547;
   }
 }

@@ -11,7 +11,7 @@ const Home = () => {
 
     const getCardData = async () => {
         const res = await fetch(
-            `https://jsonplaceholder.typicode.com/posts?_limit=9&_page=${page}`
+            `https://jsonplaceholder.typicode.com/posts?_limit=3&_page=${page}`
         );
         const data = await res.json();
         // console.log(data)
